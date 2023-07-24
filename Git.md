@@ -2,6 +2,7 @@
 
 ## Commands
 ```
+git config --list --show-origin | awk '{print $1}' | uniq
 git config --list --show-origin
 ```
 
