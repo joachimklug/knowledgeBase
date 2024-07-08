@@ -6,6 +6,7 @@ git config --list --show-origin | awk '{print $1}' | uniq
 git config --list --show-origin
 git pull --rebase
 git log --oneline
+git rebase --interactive HEAD~4
 ```
 
 ## Alias
