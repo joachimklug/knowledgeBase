@@ -21,5 +21,11 @@ git rebase --interactive HEAD~4
         b = branch
         pm = !git checkout master && git pull
 ```
+
+## GitLeaks
+```
+docker run -v ./:/path ghcr.io/gitleaks/gitleaks:latest detect --source="/path" --verbose
+```
+
 ## Links
 [Generating a new SSH key and adding it to the ssh-agent](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
