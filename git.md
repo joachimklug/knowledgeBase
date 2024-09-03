@@ -20,6 +20,9 @@ git rebase --interactive HEAD~4
         c = checkout
         b = branch
         pm = !git checkout master && git pull
+        wtl = worktree list
+        wta = worktree add
+        wtr = worktree remove
 ```
 
 ## GitLeaks
