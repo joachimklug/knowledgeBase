@@ -19,6 +19,7 @@ git rebase --interactive HEAD~4
         aa = !git add -A && git commit -a --amend --no-edit && git push --force-with-lease
         c = checkout
         b = branch
+        a = add -A
         pm = !git checkout master && git pull
         wtl = worktree list
         wta = worktree add
