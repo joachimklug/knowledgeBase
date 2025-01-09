@@ -16,7 +16,7 @@ git rebase --interactive HEAD~4
         ac = !git add -A && git commit -m
         pf = !git push --force-with-lease
         p = push
-        aa = !git add -A && git commit -a --amend --no-edit && git push --force-with-lease
+        aa = !git add -A && git commit -a --amend --no-edit
         c = checkout
         b = branch
         a = add -A
